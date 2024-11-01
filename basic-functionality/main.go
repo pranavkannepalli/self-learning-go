@@ -63,5 +63,10 @@ func main() {
 		fmt.Println("Bad")
 	}
 
+	newp := &Person{"Bibble", "Jignesh"}
+	fmt.Println((*newp).firstName, newp.lastName)
+	fmt.Println(newp)
+	fmt.Println(*newp)
+
 	fmt.Println("end")
 }
