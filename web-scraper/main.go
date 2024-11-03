@@ -1,0 +1,6 @@
+package webscraper
+
+import {
+	"fmt"
+	
+}
