@@ -8,7 +8,6 @@ import (
 )
 
 // TODO: add logger system
-// TODO: add command line reader to decide how verbose + whether or not to save to CMD
 
 func main() {
 	fmt.Println("Starting webscraper")
